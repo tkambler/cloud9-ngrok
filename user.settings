@@ -1,0 +1,151 @@
+{
+    "ace": {
+        "@animatedScroll": true,
+        "@antialiasedfonts": false,
+        "@behavioursEnabled": true,
+        "@cursorStyle": "ace",
+        "@displayIndentGuides": true,
+        "@fadeFoldWidgets": true,
+        "@fontFamily": "Consolas, Monaco, Menlo, Ubuntu Mono, source-code-pro, monospace",
+        "@fontSize": "12",
+        "@highlightActiveLine": true,
+        "@highlightGutterLine": true,
+        "@highlightSelectedWord": true,
+        "@keyboardmode": "default",
+        "@mergeUndoDeltas": "off",
+        "@overwrite": false,
+        "@printMarginColumn": "80",
+        "@scrollPastEnd": "0.5",
+        "@scrollSpeed": "2",
+        "@selectionStyle": "line",
+        "@showFoldWidgets": true,
+        "@showGutter": true,
+        "@showInvisibles": false,
+        "@showLineNumbers": "true",
+        "@showPrintMargin": true,
+        "@theme": "ace/theme/cloud9_night_low_color",
+        "@useWrapMode": false,
+        "@wrapBehavioursEnabled": false,
+        "@wrapToView": true,
+        "custom-types": {
+            "json()": {
+                "^searchresults": "c9search"
+            }
+        },
+        "statusbar": {
+            "@show": true
+        }
+    },
+    "breakpoints": {
+        "@active": true
+    },
+    "build": {
+        "@autobuild": false
+    },
+    "collab": {
+        "@showbubbles": true
+    },
+    "debug": {
+        "@autoshow": true,
+        "@pause": 0
+    },
+    "findinfiles": {
+        "@clear": true,
+        "@consolelaunch": false,
+        "@fullpath": false,
+        "@project": "/",
+        "@scrolldown": false
+    },
+    "format": {
+        "jsbeautify": {
+            "@advanced": {},
+            "@braces": "end-expand",
+            "@indent_inner_html": false,
+            "@jslinthappy": false,
+            "@keeparrayindentation": false,
+            "@preserveempty": true,
+            "@space_before_conditional": true,
+            "@unescape_strings": true
+        }
+    },
+    "general": {
+        "@animateui": true,
+        "@automerge": false,
+        "@confirmmerge": true,
+        "@downloadFilesAs": "auto",
+        "@preview-navigate": false,
+        "@preview-tree": false,
+        "@revealfile": false,
+        "@skin": "dark",
+        "@treestyle": "default"
+    },
+    "imgeditor": {
+        "@smooth": false
+    },
+    "key-bindings": {
+        "@platform": "auto",
+        "@preset": "default"
+    },
+    "language": {
+        "@continuousCompletion": true,
+        "@enterCompletion": true,
+        "@hints": true,
+        "@instanceHighlight": true,
+        "@overrideMultiselectShortcuts": true
+    },
+    "metadata": {
+        "@undolimit": "100"
+    },
+    "openfiles": {
+        "@hidetree": false,
+        "@show": false
+    },
+    "output": {
+        "@backgroundColor": "#003a58",
+        "@foregroundColor": "#FFFFFF",
+        "@keepOutput": false,
+        "@nosavequestion": false,
+        "@selectionColor": "#225477"
+    },
+    "preview": {
+        "@default": "preview.browser",
+        "@onSave": false,
+        "@running_app": false
+    },
+    "projecttree": {
+        "@hiddenFilePattern": "*.pyc, __pycache__, .*",
+        "@scope": false,
+        "@showhidden": true
+    },
+    "runconfig": {
+        "@debug": true,
+        "@saveallbeforerun": true,
+        "@showruncfglist": false
+    },
+    "tabs": {
+        "@asterisk": false,
+        "@autoclosepanes": true,
+        "@show": true,
+        "@title": false
+    },
+    "terminal": {
+        "@antialiasedfonts": false,
+        "@backgroundColor": "#153649",
+        "@blinking": false,
+        "@defaultEnvEditor": false,
+        "@fontfamily": "Consolas, Ubuntu Mono, Menlo, monospace",
+        "@fontsize": "12",
+        "@foregroundColor": "#FFFFFF",
+        "@scrollback": 4000,
+        "@selectionColor": "#515D77",
+        "noclosequestion": {
+            "json()": "true"
+        }
+    },
+    "tour": {
+        "@default-complete": false
+    },
+    "welcome": {
+        "@first": true
+    }
+}
