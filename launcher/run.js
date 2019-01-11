@@ -9,6 +9,7 @@ program
     .option('-a, --auth [username:password]', 'Authentication')
     .option('-c, --collab', 'If passed, run Cloud9 in "collaborative" mode.')
     .option('-n, --ngrok', 'If passed, create an ngrok tunnel pointing to your Cloud9 environment')
+    .option('-t, --token', 'ngrok token')
     .parse(process.argv);
 
 let cloud9Proc;
@@ -91,7 +92,8 @@ if (program.ngrok) {
     ngrok.connect({
         'proto': 'http',
         'addr': '80',
-        'region': 'us'
+        'region': 'us',
+        'authtoken': program.token
     }, (err, url) => {
 
         if (err) {
